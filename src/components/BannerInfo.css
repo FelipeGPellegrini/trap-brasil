@@ -1,0 +1,35 @@
+#containerBanner {
+  display: flex;
+  margin: 30px auto;
+  width: 50vw;
+  height: 130px;
+  background-color: rgb(40, 40, 40);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+#firstScreen > h1 {
+  color: white;
+  font-size: 3em;
+  animation-name: animateOpacity;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes animateOpacity {
+  0% {opacity: 0;}
+  100% {opacity: 100%;}
+}
+
+#infoScreen > p {
+  margin: 30px;
+  color: beige;
+  animation-name: animateOpacity;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
